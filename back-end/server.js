@@ -11,6 +11,7 @@ app.use(express.json());
 //service
 app.use('/product', productRoute)
 app.use('/dashboard')
+app.use('/test')
 
 
 const port = process.env.PORT || 8080;
